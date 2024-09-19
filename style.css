@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: #ccd5ae;
+    text-align:center;
+    height:100vh;
+}
+
+.container{
+     height:80vh;
+     display:flex;
+     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+    
+}
+
+.box{
+    height:18vmin;
+    width:18vmin;
+    background-color: #344e41;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem black;
+    font-size: 8vmin;
+    color:bisque;
+    
+
+
+}
+#reset{
+    height:60px;
+    width:150px;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3%;
+    background-color:#ffb703 ;
+    color:black;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+.new{
+    height:60px;
+    width:200px;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3%;
+    background-color:#ffb703 ;
+    color:black;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+.winner{
+    color:black;
+    font-size: 3vmin;
+
+}
+.msg-container{
+    height:20vmin;
+    gap:2vmin;
+
+}
+.hide{
+    display:none;
+}
